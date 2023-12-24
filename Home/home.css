@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url('../homebackground.jpg');
+    background-size:cover;
+    position: fixed;
+   
+}
+
+
+
+.content
+{
+    text-align: center;
+    margin-top: 20%;
+    
+    
+}
+
+.content p{
+    color: rgb(16, 1, 1);
+    font-size:xx-large;
+    font-weight: 1000px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+
+}
+button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}

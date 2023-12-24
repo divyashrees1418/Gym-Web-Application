@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../homebackground.jpg');
+    background-size:cover;
+   
+}
+
+.context
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+p,input,button{
+    font-size:40px;
+    margin-top: 30px;
+    
+}
+
+input::placeholder{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px black solid;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+}
+
+
+
+button{
+    padding:10px 30px ;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+

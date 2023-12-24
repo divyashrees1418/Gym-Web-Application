@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imge{
+    background-image: url(../homebackground.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#pop-childern{
+    display: flex;
+    margin-top: 5%;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+#pop-childern div{
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+img{
+    border-radius: 20px;
+   
+    
+
+}
+
+
+
+
+
+.one,.two,.three,.four,.five,.six {
+    position: relative;
+}
+
+#one1,#two2,#three3,#four4,#five5,#six6 {
+    position: absolute; 
+    bottom: 50px;
+    left: 50px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px; 
+    border-radius: 5px;
+} 
+
+button{
+    position: absolute; 
+    bottom: 20px;
+    left: 90px; 
+    padding: 5px; 
+    border-radius: 100px;
+
+}
+.btn{
+   
+    left: 80%;
+   
+    padding: 5px 10px;
+    background-color: rgb(236, 229, 229);
+    font-size: xx-large;
+    
+} 
+a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}

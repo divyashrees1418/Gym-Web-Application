@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imge{
+    background-image: url(../homebackground.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#pop-adult{
+    display: flex;
+    width: 1000px;
+    
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#pop-adult div{
+    flex-basis: 15%;
+    padding: 10px;
+}
+img{
+    border-radius: 20px;
+}
+
+.i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9,.i10,.i11,.i12,.i13,.i14{
+    position: relative;
+}
+
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14 {
+    position: absolute; 
+    bottom: 60px;
+    left: 70px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 5px; 
+    border-radius: 5px; 
+    
+}
+
+button{
+    position: absolute; 
+    bottom: 20px;
+    left: 90px; 
+    padding: 5px; 
+    border-radius: 100px;
+
+}
+
+.btn{
+   
+    max-width: 200px;
+    position: relative;
+    left: 80%;
+   
+    padding: 10px 30px;
+    background-color: rgb(236, 229, 229);
+    font-size: xx-large;
+    margin-bottom: 90px;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+    

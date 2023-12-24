@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../homebackground.jpg);
+    background-size: cover;
+    
+    
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10%;
+    font-weight: bolder;
+    
+    width: fit-content;
+    margin-left: 40%;
+}
+.context{
+     display: flex; 
+    margin-top: 10%;
+    justify-content: space-evenly
+}
+
+#childern,#adult,#senior{
+    padding: 20px 50px;
+    font-size: xx-large;
+    border-radius: 20px;
+    transition: property duration timing-function;
+    transition: opacity 1s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+button:hover{
+    transform: scale(1.1)
+}
+ a{
+    text-decoration: none;
+    color:black; 
+}
+
+
